@@ -1,16 +1,22 @@
-import java.util.Scaner;
-class EvenOdd {
+ import java.util.Scanner;
 
-    public static void main(String[] args) {
+public class EvenOdd
+{
+
+    public static void main(String[] args)
+    {
 
         Scanner reader = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
         int num = reader.nextInt();
-
+        
         if(num % 2 == 0)
             System.out.println(num + " is even");
-        else
+         else
             System.out.println(num + " is odd");
+ 
+ 
     }
+    
 }
