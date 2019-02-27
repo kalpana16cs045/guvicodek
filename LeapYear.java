@@ -2,7 +2,7 @@ public class LeapYear {
 
     public static void main(String[] args) {
 
-        int year = 1900;
+        int year = 2000;
         boolean leap = false;
 
         if(year % 4 == 0)
